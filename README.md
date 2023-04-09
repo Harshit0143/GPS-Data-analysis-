@@ -30,7 +30,7 @@ Let $i$ and $j$ be two row indices: $0 <= i,j < n$
 Time Complexity: $\mathcal{O}(n^2)$  
 Auxillary Space: $\mathcal{O}(1)$
 
-* For the given input data, we will need approximately $4692^2   \approx 4.7$ x $10^7$ `operations` and the progam did not `terminate` on my machine after `20 minutes` 
+* For the given input data, we will need approximately $4692^2   \approx 2.2$ x $10^7$ `operations` and the progam did not `terminate` on my machine after `20 minutes` 
 
 ### `Faster Algorithm`
 * Toward building the `algorithm` I followed the shown thoughtprocess:
