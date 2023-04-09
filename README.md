@@ -28,7 +28,10 @@ Auxillary Space: $\mathcal{O}(1)$
 * For the given input data, we will need approximately $6867^2   \approx 4.7$ x $10^7$ `operations` and the progam did not `terminate` on my machine after `20 minutes` 
 
 ### `Faster Algorithm`
-* Toward building the 
+* Toward building the `algorithm` I followed the shown thoughtprocess:
+Let $i$ and $j$ be two row indices: $0 <= i,j < n$ 
+
+1) 
 
 
 Time Complexity: $\mathcal{O}(nlog(n))$  
