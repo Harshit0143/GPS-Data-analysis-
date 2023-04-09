@@ -3,19 +3,24 @@
 # Problem 1
 
 ## (1) Following are the $Statistics$ obtained:
-• Maximum duration of the trip: ``   
-• Minimum duration of the trip: ``  
-• Total number of trips corresponding to the minimum duration: ``    
-• Percentage of total circular trips. A trip is defined as circular if it starts and ends at the same
-location: ``   
-• Total runtime for the function``  
+* Initial number if trips: `6867`
+* Trips after removing $0 duration$ trips: `6821`
+* Maximum duration of the trip: `518 minutes`   
+* Minimum duration of the trip: `1 minutes`  
+* Total number of trips corresponding to the minimum duration: `89` 
+* Total number of $circular$ trips: `169`
+* Percentage of total $circular$ trips: `2.478%`   
+* Total runtime of `Statistics()` the function: `0.23416614532470703 seconds`  
 
 
-## (2) There are the following methods to compute the number of `feasible pairs`:
+## (2) 
+
+### After `filtering` out rides b=from `06:00 AM` to `06:00 PM`: `4692` rides 
+### There are the following methods to compute the number of `feasible pairs`:
 
 ### The `Naive Algorithm`: 
 #### Define: 
-* $n$ = number of `rows` in the data, here $n=6867$
+* $n$ = number of `rows` in the `filtered` data, here $n=4692$
 
 Let $i$ and $j$ be two row indices: $0 <= i,j < n$ 
 * for every pair $(i,j)$ , $i~=j$  we check if `trip` $i$ then `trip` $j$ is feasible. 
@@ -25,7 +30,7 @@ Let $i$ and $j$ be two row indices: $0 <= i,j < n$
 Time Complexity: $\mathcal{O}(n^2)$  
 Auxillary Space: $\mathcal{O}(1)$
 
-* For the given input data, we will need approximately $6867^2   \approx 4.7$ x $10^7$ `operations` and the progam did not `terminate` on my machine after `20 minutes` 
+* For the given input data, we will need approximately $4692^2   \approx 4.7$ x $10^7$ `operations` and the progam did not `terminate` on my machine after `20 minutes` 
 
 ### `Faster Algorithm`
 * Toward building the `algorithm` I followed the shown thoughtprocess:
