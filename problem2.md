@@ -55,4 +55,4 @@
   *  Using traffic data to decide necessary constructions like divergences to divert trafic 
   
 We can use the data to 
-For the purpose of traffic monitoring, ee should analyse the data in time slots because locations at two completely unrelated times shouldn't give much conclustion. First step should be the standard data cleaning step. Heat maps can be used to visualise the crowded spots in the city.
+For the purpose of traffic monitoring, ee should analyse the data in time slots because locations at two completely unrelated times shouldn't give much conclustion. First step should be the standard data cleaning step. Heat maps can be used to visualise the crowded spots in the city. For analysing the data more computationally, we can use clustering algorithmns like `k means clustering`. This will give us the location of the hotspots. It can be manually inspected what is the flow of traffic in this area, what could be the reaosnfor such crowding and then it can be decided to take suitable measures. 
