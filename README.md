@@ -2,7 +2,7 @@
 
 ## Part 1 
 #### Following are the $Statistics$ obtained:
-* Initial number if trips: `6867`
+* Initial number of trips: `6867`
 * Trips after removing $0$ $duration$ trips: `6821`
 * Maximum $duration$ of the trip: `518 minutes`   
 * Minimum $duration$ of the trip: `1 minutes`  
@@ -11,6 +11,20 @@
 * Percentage of total $circular$ trips: `2.478%`   
 * Total runtime of `Statistics()` the function: `0.09171938896179199 seconds`  
 
+* Average ride duration: `12.526755607682158 minutes`
+* Maximum probable duration: `5.9115-6.17 minutes` with probability: `0.2813021681534756`
+* Average ride duration: 
+
+## `PDF` and `CDF` for ride duration:
+ <p align = "center">
+      
+<img width="500" alt="Screenshot 2023-04-10 at 5 33 55 PM" src="https://user-images.githubusercontent.com/97736991/230898233-7d93d8ea-8c6d-45ba-b4cb-38ddbdcf8114.png">
+<img width="500" alt="Screenshot 2023-04-10 at 5 34 12 PM" src="https://user-images.githubusercontent.com/97736991/230898291-e3e63eaa-26ff-4fec-a313-176f2923fb7a.png">
+
+ </p>
+
+
+<br><br><br><br><br>
 
 ## Part 2 
 
