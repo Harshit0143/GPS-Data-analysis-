@@ -10,12 +10,13 @@
 * Total number of trips corresponding to the minimum duration: `89` 
 * Total number of $circular$ trips: `169`
 * Percentage of total $circular$ trips: `2.478%`   
-* Total runtime of `Statistics()` the function: `0.23416614532470703 seconds`  
+* Total runtime of `Statistics()` the function: `0.09171938896179199 seconds`  
 
 
 ## (2) 
 
 ### After `filtering` out rides b=from `06:00 AM` to `06:00 PM`: `4692` rides 
+### Running time for `filtering`: `0.002974987030029297 seconds`
 ### There are the following methods to compute the number of `feasible pairs`:
 
 ### The `Naive Algorithm`: 
@@ -60,7 +61,7 @@ Let $i$ and $j$ be two row indices: $0 <= i,j < n$
       ```
 3) How to get `curr` ? 
   As = `dict_en[key]` : sorted by end time 
-  Ae = `dict_st[key]` : sorted by srart time 
+  Ae = `dict_st[key]` : sorted by start time 
   ```
   start with a:
      pointer x poining to Ae[0]
@@ -90,9 +91,11 @@ Let $i$ and $j$ be two row indices: $0 <= i,j < n$
 Time Complexity: $\mathcal{O}(nlog(n))$  
 Auxillary Space: $\mathcal{O}(n)$
 
-#### For the given data, it produced the output in $$ $seconds$
-#### Total number of `feasible pairs` = 
+#### For the given data, runtime:  `1.9116671085357666` seconds
+#### Total number of `feasible pairs` = `41518`
 
+## (3)
+* First I had to decide a circle to 
 
 
 
