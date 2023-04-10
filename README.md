@@ -12,14 +12,17 @@
 * Total runtime of `Statistics()` the function: `0.09171938896179199 seconds`  
 
 * Average ride duration: `12.526755607682158 minutes`
-* Maximum probable duration: `5.9115-6.17 minutes` with probability: `0.2813021681534756`
+* Maximum probable duration: `5.015  6.019 minutes` with probability: `0.07243530829951987`
+* For constructing the `pdf`/`cdf`, the number of `buckets` was carefully chosen to `515` (found by hit and trial) so that the 
+  $CDF(time) \to 1$ as $t \to \infty$. 
 * Average ride duration: 
-
 ## `PDF` and `CDF` for ride duration:
  <p align = "center">
       
-<img width="500" alt="Screenshot 2023-04-10 at 5 33 55 PM" src="https://user-images.githubusercontent.com/97736991/230898233-7d93d8ea-8c6d-45ba-b4cb-38ddbdcf8114.png">
-<img width="500" alt="Screenshot 2023-04-10 at 5 34 12 PM" src="https://user-images.githubusercontent.com/97736991/230898291-e3e63eaa-26ff-4fec-a313-176f2923fb7a.png">
+<img width="400" alt="Screenshot 2023-04-11 at 3 46 58 AM" src="https://user-images.githubusercontent.com/97736991/231009406-50008a3e-73ab-4c49-b13f-6b0f2ebeabee.png">
+<img width="410
+" alt="Screenshot 2023-04-11 at 3 47 10 AM" src="https://user-images.githubusercontent.com/97736991/231009431-432ab91f-8dc7-4c42-add6-906f4d4b5957.png">
+
 
  </p>
 
