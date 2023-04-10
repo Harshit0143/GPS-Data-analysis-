@@ -1,4 +1,4 @@
-# (1)
+# Problem 2
 
 
 # Part 1
@@ -17,11 +17,11 @@
 
 # Part 2
 * I decided to look at the variation of `crouding density` in $Bejing$ $City$  as a a function of time. I grouped that data (ignoring the `date`) into 
-* Hence I obtained `12` haeat maps over the day. The total size `~653.9 MB` and took around `30 mins` to process ht e `maps` while using `multiprocessing`. 
+* Hence I obtained `12` haeat maps over the day. The total size `~653.9 MB` and took mre than `30 mins` to process  the `maps` while using `multiprocessing`. 
   
 ### Here are the results ( in order `(00:00:00-02:00:00)` hrs, .......`(22:00:00-00:00:00)` hrs
 
-<p>
+<p align="center">
 <img width="400" alt="Screenshot 2023-04-10 at 1 34 01 PM" src="https://user-images.githubusercontent.com/97736991/230856649-373df9df-4625-4325-8dd4-1db07e165705.png">
 <img width="400" alt="Screenshot 2023-04-10 at 1 34 32 PM" src="https://user-images.githubusercontent.com/97736991/230856754-00cdc70b-9c4f-4fe5-9ecf-9ab3f3e3da07.png">
 <img width="400" alt="Screenshot 2023-04-10 at 1 36 03 PM" src="https://user-images.githubusercontent.com/97736991/230857011-da1ea58c-d0f5-4384-9eee-636f3bb6bd85.png">
@@ -35,8 +35,24 @@
 <img width="400" alt="Screenshot 2023-04-10 at 1 39 27 PM" src="https://user-images.githubusercontent.com/97736991/230857572-655d2574-4cc1-44fd-94e5-72f026212731.png">
 <img width="400" alt="Screenshot 2023-04-10 at 1 40 13 PM" src="https://user-images.githubusercontent.com/97736991/230857679-1283b5b1-5af0-4455-8655-2eeb242153ac.png"></p>
 
+* Once direct conclusion from this is that, unsurprisingly, the `heat` map changes with time but the city center is at all times the hotspot
+* On zooming in the `heat` map we can also see
+<p align="center">
+<img width="400" alt="Screenshot 2023-04-10 at 4 36 19 PM" src="https://user-images.githubusercontent.com/97736991/230890310-5aeb08b9-1c6a-4b55-8692-1f3f673c9a21.png">
+  <img width="400" alt="Screenshot 2023-04-10 at 4 41 06 PM" src="https://user-images.githubusercontent.com/97736991/230890947-f6912cbe-b768-4bb0-a6f4-910812f319e7.png">
+</p>
+* We can conclude that not all roads are equally conjested, as a result of factors like width  and connectivity 
+
+
 # Part (3) 
 
-* About advertising based in crowding (but that is already known)
 
-
+* I hads idea like: 
+  *  Optimising Advertising locations based on crowding data 
+  *  Tracking spread of contagious diseases like COVID 19
+  *  Using tracking data to optimise routes for Fast delivery services (Especially companies offereing 10 minutes delivery) 
+  *  Or designing public transport routes 
+  *  Using traffic data to decide necessary constructions like divergences to divert trafic 
+  
+We can use the data to 
+For the purpose of traffic monitoring, ee should analyse the data in time slots because locations at two completely unrelated times shouldn't give much conclustion. First step should be the standard data cleaning step. Heat maps can be used to visualise the crowded spots in the city.
