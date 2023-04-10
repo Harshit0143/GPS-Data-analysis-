@@ -94,8 +94,15 @@ Auxillary Space: $\mathcal{O}(n)$
 #### For the given data, runtime:  `1.9116671085357666` seconds
 #### Total number of `feasible pairs` = `41518`
 
+
+
 ## (3)
-* First I had to decide a circle to 
+#### Note that the `data` here is restricted to just the first 100 rows 
+* First I had to decide a circle to to download the `graph_from_point()` from the `OSMnX` module
+* I started with the rough estimate:  `average` of (latitude,longitude) of given points.
+* Now i use the `folium` module to plot these points and the `circle` on a `map` 
+* Then I used hit and trial to get roughly the cirle of `least radius` that enclosed all the given points (So that there is minimal computation required in downloading the Graph)
+* 
 
 
 
