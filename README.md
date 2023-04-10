@@ -109,7 +109,7 @@ Time Complexity: $\mathcal{O}(nlog(n))$
 Auxillary Space: $\mathcal{O}(n)$
 
 #### For the given data, runtime:  `1.9116671085357666` seconds
-#### Total number of `feasible pairs` = `43394`
+#### Total number of `feasible pairs` = `41518`
 
 
 
