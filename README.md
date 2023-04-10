@@ -1,8 +1,7 @@
-# data_science
-
 # Problem 1
 
-## (1) Following are the $Statistics$ obtained:
+## Part 1 
+#### Following are the $Statistics$ obtained:
 * Initial number if trips: `6867`
 * Trips after removing $0$ $duration$ trips: `6821`
 * Maximum $duration$ of the trip: `518 minutes`   
@@ -13,7 +12,7 @@
 * Total runtime of `Statistics()` the function: `0.09171938896179199 seconds`  
 
 
-## (2) 
+## Part 2 
 
 ### After `filtering` out rides b=from `06:00 AM` to `06:00 PM`: `4692` rides 
 ### Running time for `filtering`: `0.002974987030029297 seconds`
@@ -93,17 +92,24 @@ Time Complexity: $\mathcal{O}(nlog(n))$
 Auxillary Space: $\mathcal{O}(n)$
 
 #### For the given data, runtime:  `1.9116671085357666` seconds
-#### Total number of `feasible pairs` = `41518`
+#### Total number of `feasible pairs` = `43394`
 
 
 
-## (3)
+# Part 3
 #### Note that the `data` here is restricted to just the first 100 rows 
 * First I had to decide a circle to to download the `graph_from_point()` from the `OSMnX` module
 * I started with the rough estimate:  `average` of (latitude,longitude) of given points.
 * Now i use the `folium` module to plot these points and the `circle` on a `map` 
 * Then I used hit and trial to get roughly the cirle of `least radius` that enclosed all the given points (So that there is minimal computation required in downloading the Graph)
-      
+
+#### Figure shows the `depots` plotted on a map.
+ <p align = "center"> 
+<img width="700" alt="Screenshot 2023-04-10 at 4 56 42 PM" src="https://user-images.githubusercontent.com/97736991/230892995-b82f3251-d7dc-42c0-96f6-f003cde41a73.png"></p>
+
+#### Here is the `circele` I decided to download `G` from. Center = `(38.98,-77.12)`, `radius = 22000 m`
+ <p align = "center"> 
+<img width="700" alt="Screenshot 2023-04-10 at 5 00 10 PM" src="https://user-images.githubusercontent.com/97736991/230893488-3ac17e6f-da12-48c0-9f23-5802ed4c3337.png"></p>
 
 
 
