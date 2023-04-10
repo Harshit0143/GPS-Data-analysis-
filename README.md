@@ -117,6 +117,7 @@ Auxillary Space: $\mathcal{O}(n)$
 * Now i use the `folium` module to plot these points and the `circle` on a `map` 
 * Then I used hit and trial to get roughly the cirle of `least radius` that enclosed all the given points (So that there is minimal computation required in downloading the Graph)
 
+* Among the top 100 entries there are `147` unique depoots    
 #### Figure shows the `depots` plotted on a map.
  <p align = "center"> 
 <img width="700" alt="Screenshot 2023-04-10 at 4 56 42 PM" src="https://user-images.githubusercontent.com/97736991/230892995-b82f3251-d7dc-42c0-96f6-f003cde41a73.png"></p>
