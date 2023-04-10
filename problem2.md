@@ -12,11 +12,13 @@
 
 
 # Implemetation Details 
+
 * For the implemetatoin, `multiprocesing` has been used. Using a `Pool()`, the processes of computing distance have been `started` simultaneously for each individual 
-* It takes `~40 minutes` on the local machine to return the distances
+* Tere is a row with a `faulty` latitude value. Dropped that row.
+* It takes `~2 minutes 53 seconds` on the local machine to return the distances
 
 # Part 2
-* I decided to look at the variation of `crouding density` in $Bejing$ $City$  as a a function of time. I grouped that data (ignoring the `date`) into 
+* I decided to look at the variation of `crowding density` in $Bejing$ $City$  as a a function of time. I grouped that data (ignoring the `date`) into 
 * Hence I obtained `12` haeat maps over the day. The total size `~653.9 MB` and took mre than `30 mins` to process  the `maps` while using `multiprocessing`. 
   
 ### Here are the results ( in order `(00:00:00-02:00:00)` hrs, .......`(22:00:00-00:00:00)` hrs
@@ -44,10 +46,13 @@
 * We can conclude that not all roads are equally conjested, as a result of factors like width  and connectivity 
 
 
+
+# Implementation Details:
+* Parsing the date-time values takes a lot of time. There were some `faulty` data-time values too.
 # Part (3) 
 
 
-* I hads idea like: 
+* I had ideas like: 
   *  Optimising Advertising locations based on crowding data 
   *  Tracking spread of contagious diseases like COVID 19
   *  Using tracking data to optimise routes for Fast delivery services (Especially companies offereing 10 minutes delivery) 
@@ -55,4 +60,4 @@
   *  Using traffic data to decide necessary constructions like divergences to divert trafic 
   
 We can use the data to 
-For the purpose of traffic monitoring, ee should analyse the data in time slots because locations at two completely unrelated times shouldn't give much conclustion. First step should be the standard data cleaning step. Heat maps can be used to visualise the crowded spots in the city. For analysing the data more computationally, we can use clustering algorithmns like `k means clustering`. This will give us the location of the hotspots. It can be manually inspected what is the flow of traffic in this area, what could be the reaosnfor such crowding and then it can be decided to take suitable measures. 
+* For the purpose of traffic monitoring, ee should analyse the data in time slots because locations at two completely unrelated times shouldn't give much conclustion. First step should be the standard data cleaning step. Heat maps can be used to visualise the crowded spots in the city. For analysing the data more computationally, we can use clustering algorithmns like `k means clustering`. This will give us the location of the hotspots. It can be manually inspected what is the flow of traffic in this area, what could be the reaosnfor such crowding and then it can be decided to take suitable measures. 
