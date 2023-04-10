@@ -1,14 +1,17 @@
 # (1)
 
 
-
+# Part 1
+* I have considered the distance travelled by the person as the `Great Circle Distance` which used the `Haversines` formula and assumes the `Earth` to be a perfectt sphere. 
+* The change in `altitude` has not been considered in calculation of `distances` 
+* When the `trajector_id` changes, I have not started counting the distance separately, but continued. i.e. the distance between `last point` of trip $i$ and `first point` of trip $(i+1)$ has been added, effectiely, makind `trajectory_id` immmaterial in this purpose. 
 
 
 # Part 2
 * I decided to look at the variation of `crouding density` in $Bejing$ $City$  as a a function of time. I grouped that data (ignoring the `date`) into 
 * Hence I obtained `12` haeat maps over the day. The total size `~653.9 MB` and took around `30 mins` to process ht e `maps` while using `multiprocessing`. 
   
-### Here are the results ( in order (00:00:00-02:00:00) hrs, .......(22:00:00-00:00:00) hrs
+### Here are the results ( in order `(00:00:00-02:00:00)` hrs, .......`(22:00:00-00:00:00)` hrs
 
 <p>
 <img width="400" alt="Screenshot 2023-04-10 at 1 34 01 PM" src="https://user-images.githubusercontent.com/97736991/230856649-373df9df-4625-4325-8dd4-1db07e165705.png">
@@ -25,3 +28,7 @@
 <img width="400" alt="Screenshot 2023-04-10 at 1 40 13 PM" src="https://user-images.githubusercontent.com/97736991/230857679-1283b5b1-5af0-4455-8655-2eeb242153ac.png"></p>
 
 # Part (3) 
+
+* 
+
+
