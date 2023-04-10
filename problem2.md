@@ -2,13 +2,18 @@
 
 
 # Part 1
-* I have considered the distance travelled by the person as the `Great Circle Distance` which used the `Haversines` formula and assumes the `Earth` to be a perfectt sphere. 
-* The change in `altitude` has not been considered in calculation of `distances` 
+### Assumptions 
+* The distance travelled by the person is the `Great Circle Distance` which uses the `Haversines` formula and assumes the `Earth` to be a perfectt sphere. 
+* The change in `altitude` does not affect the calculation of `distances` significantly.  
 * When the `trajector_id` changes, I have not started counting the distance separately, but continued. i.e. the distance between `last point` of trip $i$ and `first point` of trip $(i+1)$ has been added, effectiely, makind `trajectory_id` immmaterial in this purpose. 
-
-* For the implemetatoin, `multiprocesing` has been used. Using a `Pool()`, the processes of computing distance have been `started` simultaneously for each individual 
 * For an individual the distance travelled is the displacement summed up onver all consecutive pairs (maintaining `chronilogical` order)
 * Successive time intervals are so small that we `approximate` the displacement` as the `distance` 
+
+
+
+# Implemetation Details 
+* For the implemetatoin, `multiprocesing` has been used. Using a `Pool()`, the processes of computing distance have been `started` simultaneously for each individual 
+* It takes `1` on the local machine to return the distances
 
 # Part 2
 * I decided to look at the variation of `crouding density` in $Bejing$ $City$  as a a function of time. I grouped that data (ignoring the `date`) into 
@@ -32,6 +37,6 @@
 
 # Part (3) 
 
-* 
+* About advertising based in crowding (but that is already known)
 
 
