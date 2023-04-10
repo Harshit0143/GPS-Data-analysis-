@@ -13,7 +13,7 @@
 
 # Implemetation Details 
 * For the implemetatoin, `multiprocesing` has been used. Using a `Pool()`, the processes of computing distance have been `started` simultaneously for each individual 
-* It takes `1` on the local machine to return the distances
+* It takes `~40 minutes` on the local machine to return the distances
 
 # Part 2
 * I decided to look at the variation of `crouding density` in $Bejing$ $City$  as a a function of time. I grouped that data (ignoring the `date`) into 
