@@ -183,7 +183,7 @@ Auxillary Space: $\mathcal{O}(n)$
 
 # Implementation Details:
 * Parsing the date-time values takes a lot of time. There were some `faulty` data-time values too.
-# Part (3) 
+# Part 3 
 
 
 * I had ideas like: 
